@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "ModelBindingSeparateModel";
+}
+
+@addTagHelper *, Lab2
+<h2>ModelBindingSeparateModel</h2>
+<form method="post" action="~/Calc/Count4">
+    <input name="first_value" />
+    <select name="operation">
+        <Operation Add />
+        <Operation Sub />
+        <Operation Mult />
+        <Operation Div />
+    </select>
+    <input name="second_value" />
+    <input type="submit" />
+</form>
