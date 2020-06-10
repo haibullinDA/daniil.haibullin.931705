@@ -34,7 +34,7 @@ namespace Lab1
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddTransient<IMessageSender, HTMLSender>();
+            services.AddTransient<HTMLSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

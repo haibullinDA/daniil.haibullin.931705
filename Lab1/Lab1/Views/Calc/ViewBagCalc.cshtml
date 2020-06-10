@@ -1,18 +1,12 @@
 ﻿
 @{
     ViewData["Title"] = "ViewBagCalc";
-    var value1 = ViewBag.Value1;
-    var value2 = ViewBag.Value2;
-    var add = value1 + value2;
-    var sub = value1 - value2;
-    var mult = value1 * value2;
-    var div = value1 / value2;
 }
 
 <h2>ViewBagCalc</h2>
-<div>Первое число: @value1</div>
-<div>Второе число: @value2</div>
-<div>Сумма: @value1 + @value2 = @add</div>
-<div>Разность: @value1 - @value2 = @sub</div>
-<div>Умножение: @value1 * @value2 = @mult</div>
-<div>Деление: @value1 / @value2 = @div</div>
+<div>Первое число: @ViewBag.Value1</div>
+<div>Второе число: @ViewBag.Value2</div>
+<div>Сумма: @ViewBag.value1 + @ViewBag.value2 = @ViewBag.add</div>
+<div>Разность: @ViewBag.value1 - @ViewBag.value2 = @ViewBag.sub</div>
+<div>Умножение: @ViewBag.value1 * @ViewBag.value2 = @ViewBag.mult</div>
+<div>Деление: @ViewBag.value1 / @ViewBag.value2 = @ViewBag.div</div>

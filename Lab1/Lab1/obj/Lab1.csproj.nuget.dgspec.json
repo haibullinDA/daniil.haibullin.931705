@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\Downloads\\Lab1-20200606T055011Z-001\\Lab1\\Lab1\\Lab1.csproj": {}
+    "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab1\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\Downloads\\Lab1-20200606T055011Z-001\\Lab1\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\Downloads\\Lab1-20200606T055011Z-001\\Lab1\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\danil\\Downloads\\Lab1-20200606T055011Z-001\\Lab1\\Lab1\\Lab1.csproj",
+        "projectPath": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab1\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\Downloads\\Lab1-20200606T055011Z-001\\Lab1\\Lab1\\obj\\",
+        "outputPath": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",

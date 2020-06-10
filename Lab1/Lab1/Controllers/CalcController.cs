@@ -20,8 +20,11 @@ namespace Lab1.Controllers
             Random rand = new Random();
             int value1 = rand.Next(0, 10);
             int value2 = rand.Next(0, 10);
-
-            mylist l = new mylist(value1, value2);
+            int add = value1 + value2;
+            int sub = value1 - value2;
+            int mult = value1 * value2;
+            double div = (double)value1 / (double)value2;
+            mylist l = new mylist(add,sub,mult,div,value1,value2);
 
             if (value2 != 0)
             {
@@ -39,9 +42,18 @@ namespace Lab1.Controllers
             Random rand = new Random();
             int value1 = rand.Next(0, 10);
             int value2 = rand.Next(0, 10);
-
+            
+            int add = value1 + value2;
+            int sub = value1 - value2;
+            int mult = value1 * value2;
+            double div = (double)value1 / (double)value2;
+            
             ViewData["Value1"] = value1;
             ViewData["Value2"] = value2;
+            ViewData["add"] = add;
+            ViewData["sub"] = sub;
+            ViewData["mult"] = mult;
+            ViewData["div"] = div;
 
             if (value2 != 0)
             {
@@ -62,6 +74,16 @@ namespace Lab1.Controllers
             ViewBag.Value1 = value1;
             ViewBag.Value2 = value2;
 
+            int add = value1 + value2;
+            int sub = value1 - value2;
+            int mult = value1 * value2;
+            double div = (double)value1 / (double)value2;
+
+            ViewBag.add = add;
+            ViewBag.sub = sub;
+            ViewBag.mult = mult;
+            ViewBag.div = div;
+
             if (value2 != 0)
             {
                 return View("ViewBagCalc");
@@ -73,26 +95,9 @@ namespace Lab1.Controllers
         }
 
         
-        public IActionResult ServiceInjectionCalc([FromServices] IMessageSender messageSender)
+        public IActionResult ServiceInjectionCalc()
         {
-            int[] arr = messageSender.GetArr();
-            if (arr[1] != 0)
-            {
-                return View(arr);
-            }
-            else
-            {
-                return View("ZeroErrorCalc");
-            }
+            return View();
         }
-        
-
     }
-
-    public class TwoNumb
-    {
-        public int value1 { get; set; }
-        public int value2 { get; set; }
-    }
-
 }

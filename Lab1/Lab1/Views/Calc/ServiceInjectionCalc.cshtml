@@ -1,20 +1,23 @@
-﻿@using Lab1.Services
+﻿@inject Lab1.Services.HTMLSender calc
 
 @{
 
     ViewData["Title"] = "ServiceInjectionCalc";
-    var value1 = Model[0];
-    var value2 = Model[1];
-    var add = value1 + value2;
-    var sub = value1 - value2;
-    var mult = value1 * value2;
-    var div = value1 / value2;
 }
 
 <h2>ServiceInjectionCalc</h2>
-<div>Первое число: @value1</div>
-<div>Второе число: @value2</div>
-<div>Сумма: @value1 + @value2 = @add</div>
-<div>Разность: @value1 - @value2 = @sub</div>
-<div>Умножение: @value1 * @value2 = @mult</div>
-<div>Деление: @value1 / @value2 = @div</div>
+<div>Первое число: @calc.Value1</div>
+<div>Второе число: @calc.Value2</div>
+<div>Сумма: @calc.Value1 + @calc.Value2 = @calc.add()</div>
+<div>Разность: @calc.Value1 - @calc.Value2 = @calc.sub()</div>
+<div>Умножение: @calc.Value1 * @calc.Value2 = @calc.mult()</div>
+<div>
+    Div: @calc.Value1 / @calc.Value2 = @if (calc.div() == -1)
+    {
+        @: error
+    }
+    else
+    {
+        @calc.div()
+    }
+</div>

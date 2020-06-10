@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zoq2RYwOIiwS5RBcTYxh1z+SbyoXCtGVUGESMm2kFQ+eo6CBn3B3OJ0D1DZCbmbCSZUidQHSm5OwsYnY/zsGNw==",
+  "dgSpecHash": "zRFb1uH+My7oLLUkRA/ObCk+Co3yfDgYbG/ey1hRViz0S82OlGbOVb8au3GfbwUY7PdcgBjmg9Mp/uKkKOruvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danil\\Downloads\\Lab1-20200606T055011Z-001\\Lab1\\Lab1\\Lab1.csproj",
+  "projectFilePath": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab1\\Lab1\\Lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
