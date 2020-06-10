@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xPd6wYvQBiqx712JrlLURfNvCFNG7N7+h/QEvlgB+kYn8t5C80OSmNpHXYrawzi4LZqbOapJT8OLmgCTa6m8iQ==",
+  "dgSpecHash": "nRegLIdXvdbIyomoU6QiwQt22vbiF9D2li+1DaO9Mb/H4cqx6pr6YtGH7jhBb6i/HbvNmns3KcNDESqvnZqwoA==",
   "success": true,
-  "projectFilePath": "C:\\MyFiles\\Study\\Web\\Lab5\\Lab5\\Lab5.csproj",
+  "projectFilePath": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab5\\Lab5\\Lab5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",

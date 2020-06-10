@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyFiles\\Study\\Web\\Lab5\\Lab5\\Lab5.csproj": {}
+    "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab5\\Lab5\\Lab5.csproj": {}
   },
   "projects": {
-    "C:\\MyFiles\\Study\\Web\\Lab5\\Lab5\\Lab5.csproj": {
+    "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab5\\Lab5\\Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyFiles\\Study\\Web\\Lab5\\Lab5\\Lab5.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab5\\Lab5\\Lab5.csproj",
         "projectName": "Lab5",
-        "projectPath": "C:\\MyFiles\\Study\\Web\\Lab5\\Lab5\\Lab5.csproj",
+        "projectPath": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab5\\Lab5\\Lab5.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\MyFiles\\Study\\Web\\Lab5\\Lab5\\obj\\",
+        "outputPath": "C:\\Users\\danil\\Documents\\GitHub\\daniil.haibullin.931705\\Lab5\\Lab5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
